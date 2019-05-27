@@ -757,8 +757,15 @@ header {
         letter-spacing: 4px;
         font-size: 14px; }
     .work-entry-flex .text-inner .btn-view {
-      color: #002bdc;
-      text-decoration: none; }
+      color: #ffdd00;
+      border: 1px solid #ffdd00;
+      padding: 7px 15px;
+      text-decoration: none;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      border-radius: 30px; 
+    }
 
 .work-single-flex {
   width: 100%;
@@ -1346,7 +1353,7 @@ input[type="text"] {
     display: block; }
 
 .colorlib-footer {
-  padding-bottom: 5em;
+  padding-bottom: 3em;
   background: #002bdc;
   color: rgba(255, 255, 255, 0.9); }
   .colorlib-footer a {
@@ -1382,3 +1389,5 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+  
